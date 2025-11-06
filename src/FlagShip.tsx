@@ -92,7 +92,7 @@ const FlagShip = () => {
       </div>
 
   <img
-        // src="/dancing.gif"
+        // src="/media/dancing.gif"
         alt="Flagship Grass"
         className="absolute top-[-19%] md:top-[13%] lg:top-[27%] xl:top-[27%] 2xl:top-[27%] w-[400%] h-[80vh]   object-contain  z-[99]"
       />

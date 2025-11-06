@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 const letterVideos = {
-  M: "/77.mp4",
-  A: "/55.mp4",
-  G: "/33.mp4",
-  D: "/44.mp4",
-  H: "/11.mp4",
+  M: "/media/77.mp4",
+  A: "/media/55.mp4",
+  G: "/media/33.mp4",
+  D: "/media/44.mp4",
+  H: "/media/11.mp4",
 } as const;
 
 type LetterKey = keyof typeof letterVideos;
@@ -20,7 +20,7 @@ const HeroSection = () => {
       className="relative flex items-center justify-center w-full overflow-hidden text-white bg-black"
       style={{
         minHeight: "130vh",
-        backgroundImage: 'url("/22 (2).gif")',
+        backgroundImage: 'url("/media/22 (2).gif")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

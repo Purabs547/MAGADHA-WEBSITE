@@ -138,7 +138,7 @@ const PhilosophySection = () => {
       {/* Bottom Animated Section */}
       <div className="relative rounded-b-[50px] w-full h-[500px] md:h-[800px] lg:h-[1000px] overflow-hidden">
         <img
-          src="/mythic-temple.gif"
+          src="/media/mythic-temple.gif"
           alt="Mythic Temple"
           className="w-full h-full object-cover"
         />

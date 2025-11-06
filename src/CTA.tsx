@@ -71,7 +71,7 @@ const CTA: React.FC = () => {
     <div
       className='relative w-[220px] lg:w-[300px] h-[400px] bg-black/60 rounded-xl overflow-hidden justify-center items-center border border-gray-700 hover:border-gray-400 transition-all duration-500 shadow-lg'
       style={{
-        backgroundImage: 'url("/combat22.GIF")',
+        backgroundImage: 'url("/media/combat22.GIF")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -85,7 +85,7 @@ const CTA: React.FC = () => {
     <div
       className='relative w-[220px] lg:w-[300px] h-[400px] bg-black/80 rounded-xl overflow-hidden border border-gray-700 transition-all duration-500 opacity-45'
       style={{
-        backgroundImage: 'url("/passa.gif")',
+        backgroundImage: 'url("/media/passa.gif")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -108,7 +108,7 @@ const CTA: React.FC = () => {
     <div
       className='relative w-[220px] lg:w-[300px] h-[400px] bg-black/80 rounded-xl overflow-hidden border border-gray-700 transition-all duration-500 opacity-35'
       style={{
-        backgroundImage: 'url("/map.gif")',
+        backgroundImage: 'url("/media/map.gif")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -133,7 +133,7 @@ const CTA: React.FC = () => {
 
         {/* Background Video with reduced opacity */}
         <video
-          src='/camp_Shot_2.mp4'
+          src='/media/camp_Shot_2.mp4'
           autoPlay
           loop
           muted

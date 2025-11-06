@@ -8,7 +8,7 @@ const CategoryHero = () => {
         muted
         playsInline
         className='absolute top-0 left-0 w-full h-full object-cover'
-        src='/videos/divine-cave.mp4'
+        src='/media/divine-cave.mp4'
       />
 
       {/* Dark Overlay for better contrast */}

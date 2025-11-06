@@ -177,7 +177,7 @@ const SamarHero: React.FC = () => {
         <div className='relative w-[140px] md:w-[500px] h-[190px] md:h-[520px] flex justify-center items-center mt-10 md:mt-20'>
           {/* Background Video */}
           <video
-            src='/Aarya3.mp4'
+            src='/media/Aarya3.mp4'
             autoPlay
             loop
             muted

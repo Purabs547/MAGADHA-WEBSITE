@@ -14,11 +14,11 @@ export default function Environment() {
   const manualClick = useRef(false);
 
   const mediaMap: Record<string, string> = {
-    "grand-temple": "/Across_Temple.mp4",
-    "divine-cave": "/Shivji's_puzzle_room.mp4",
-    "river-sayja": "/videos/river-sayja.mp4",
-    "forgotten-dungeon": "/Mayasur_Arena.mp4",
-    "forest-beyond": "/77.mp4",
+    "grand-temple": "/media/Across_Temple.mp4",
+    "divine-cave": "/media/Shivji's_puzzle_room.mp4",
+    "river-sayja": "/media/river-sayja.mp4",
+    "forgotten-dungeon": "/media/Mayasur_Arena.mp4",
+    "forest-beyond": "/media/77.mp4",
   };
 
   const environmentDetails: Record<
@@ -229,7 +229,7 @@ export default function Environment() {
                   muted
                   loop
                   playsInline
-                  src="/videos/divine-cave.mp4"
+                  src="/media/divine-cave.mp4"
                   className="w-full h-full object-cover block"
                 />
               )}
