@@ -1,0 +1,56 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+
+@font-face {
+  font-family: "Samarkan";
+  src: url("/fonts/Samarkan.ttf") format("truetype");
+}
+
+.font-samarkan {
+  font-family: "Samarkan", cursive;
+}
+
+.font-helvetica {
+  font-family: "Helvetica", sans-serif;
+}
+
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -1100;
+  }
+}
+
+.hover-circle {
+  background: rgba(0, 128, 0, 0.3); /* translucent green glow */
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+}
+
+.arrow-svg {
+  animation: arrowMove 1.2s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateY(-6px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+}
+
+
