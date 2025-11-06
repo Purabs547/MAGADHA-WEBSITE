@@ -282,28 +282,29 @@ export default function Villain () {
       </div>
 
       {/* Bottom grass decoration */}
-      <img
-        src='/villinGrass2.png'
-        alt='Villain grass'
-        className='relative left-1/2 -translate-x-1/2 w-[130vw] md:-mb-24  max-w-none object-cover mt-12'
-      />
+<img
+  src='/villinGrass2.png'
+  alt='Villain grass'
+  className='relative left-1/2 -translate-x-1/2 w-[130vw] md:-mb-24 max-w-none object-cover mt-12'
+/>
 
-      {/* Add custom CSS for the blur animation */}
-      <style jsx>{`
-        @keyframes pulse-blur {
-          0%, 100% {
-            filter: blur(3px);
-            opacity: 0.7;
-          }
-          50% {
-            filter: blur(6px);
-            opacity: 0.4;
-          }
-        }
-        .animate-pulse-blur {
-          animation: pulse-blur 2s ease-in-out infinite;
-        }
-      `}</style>
+{/* Add custom CSS for the blur animation */}
+<style>{`
+  @keyframes pulse-blur {
+    0%, 100% {
+      filter: blur(3px);
+      opacity: 0.7;
+    }
+    50% {
+      filter: blur(6px);
+      opacity: 0.4;
+    }
+  }
+  .animate-pulse-blur {
+    animation: pulse-blur 2s ease-in-out infinite;
+  }
+`}</style>
+
     </section>
   )
 }

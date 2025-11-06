@@ -13,16 +13,8 @@ interface Character {
 
 // Define characterGrid before using it in useState
 const characterGrid: Character[] = [
-  {
+    {
     id: 1,
-    image: '/jaswant.jpg',
-    centerImage: '/characters/2.png',
-    name: 'Jaswant Singh',
-    // title: '3D Environment artist',
-    description: 'I’m Jaswant Singh, and my approach to building Madagha and creating Antarya is rooted in being super intelligent and a meticulous decision maker. My gaming passion is fueled by strategy. I thrive on foresight, precision, and finding the smartest path forward. Every project we undertake, and every feature in Antarya, is the result of careful, strategic choices. I use my intelligence to ensure Madagha is always moving forward, distinguishing ourselves in the gaming industry through clear, effective, and brilliant strategies.'
-  },
-  {
-    id: 2,
     image: '/shraddha.jpg',
     centerImage: '/ss.png',
     name: 'Shraddha Mittal',
@@ -30,15 +22,31 @@ const characterGrid: Character[] = [
     description: 'I’m Shraddha Mittal, and I serve as the Director of this company. My core responsibility is the day-to-day success and cohesion of our efforts. I focus intensely on helping the team thrive, ensuring they have the resources and support needed to excel in their roles. Simultaneously, I manage all the things—from strategic planning and operational oversight to making sure every detail runs smoothly. My goal is to maintain a clear vision and an organized structure so our talented team can focus on achieving greatness'
   },
   {
+    id: 2,
+    image: '/jaswant.jpg',
+    centerImage: '/characters/2.png',
+    name: 'Jaswant Singh',
+    // title: '3D Environment artist',
+    description: 'I’m Jaswant Singh, and my approach to building Magadha and creating Antarya is rooted in being super intelligent and a meticulous decision maker. My gaming passion is fueled by strategy. I thrive on foresight, precision, and finding the smartest path forward. Every project we undertake, and every feature in Antarya, is the result of careful, strategic choices. I use my intelligence to ensure Magadha is always moving forward, distinguishing ourselves in the gaming industry through clear, effective, and brilliant strategies.'
+  },
+  {
     id: 3,
     image: '/pradeep.jpg',
     centerImage: '/pp.png',
-    name: 'Pradeep',
+    name: 'Prabhdeep Singh ',
     // title: '3D Environment artist',
     description: 'I’m Pradeep, and if there’s one thing that defines me, it’s my absolute passion for gaming. I bring a high level of energy to everything I do, especially when I’m playing. I love to stream and share that excitement and action with my community. For me, gaming isn’t just a hobby—it’s how I connect with others and create dynamic, entertaining content. I live for those high-stakes moments and the interaction with everyone who tunes in.'
   },
-  {
+    {
     id: 4,
+    image: '/ayush.jpeg',
+    centerImage: '/ayu.png',
+    name: 'Ayush Singh',
+    // title: '3D Environment artist',
+    description: 'I’m Ayush Singh, and I operate as the Game Development or Environment Lead. My passion lies in sculpting the worlds our players inhabit. As the Environment Lead, I direct the vision, look, and feel of every digital landscape, ensuring every ruin, forest, or cityscape is immersive and technically sound. I take charge of leading the development team, coordinating our efforts, and making sure the entire environment pipeline is optimized to deliver breathtaking and unforgettable gaming experiences.'
+  },
+  {
+    id: 5,
     image: '/robin.jpg',
     centerImage: '/characters/6.png',
     name: 'Robin Kamboj',
@@ -46,7 +54,7 @@ const characterGrid: Character[] = [
     description: 'I’m  an environment artist who spends way too much time making virtual world look just right'
   },
   {
-    id: 5,
+    id: 6,
     image: '/khushi.jpg',
     centerImage: '/characters/3.png',
     name: ' Khushi Kesharvani',
@@ -54,7 +62,7 @@ const characterGrid: Character[] = [
     description: 'I transform ideas into compelling concepts. Specialized in characters, environment and the worlds that define the creative vision of the project.'
   },
   {
-    id: 6,
+    id: 7,
     image: '/sunita.jpg',
     centerImage: '/characters/16.png',
     name: 'Sunita Kumari',
@@ -62,7 +70,7 @@ const characterGrid: Character[] = [
     description: 'I’m a passionate 3D Animator with a keen eye for detail and storytelling. I bring characters and environments to life through motion, emotion, and creativity. Skilled in animation principles, camera dynamics, and visual aesthetics, I aim to create engaging visuals that connect with audiences. I enjoy working on both stylized and realistic projects, and I’m always exploring new techniques and tools to push the boundaries of animation.'
   },
   {
-    id: 7,
+    id: 8,
     image: '/kulvinder.jpg',
     centerImage: '/characters/1.png',
     name: 'Kulvinder Singh',
@@ -70,7 +78,7 @@ const characterGrid: Character[] = [
     description: 'As a Senior 3D Animator, I turn imagination into motion. My work explores the art of storytelling through movement — crafting expressive characters, detailed environments, and lifelike visual worlds. Whether it’s film, advertising, or interactive media, I aim to deliver animation that inspires, engages, and feels alive. Every frame I create is built on passion, precision, and a love for bringing ideas to motion'
   },
   {
-    id: 8,
+    id: 9,
     image: '/jeet.jpg',
     centerImage: '/characters/10.png',
     name: 'Jeet Dey',
@@ -78,7 +86,7 @@ const characterGrid: Character[] = [
     description: 'I’m Environment Concept artist passionate about crafting atmosphere worlds that tells stories through light,color,and design. I bring imagination to life through detailed landscapes and visually rich settings for games and flims'
   },
   {
-    id: 9,
+    id: 10,
     image: '/akshat.jpg',
     centerImage: '/characters/4.png',
     name: 'Akshat lamba',
@@ -86,7 +94,7 @@ const characterGrid: Character[] = [
     description: 'Hi, I’m Akshat Lamba, a game designer passionate about blending storytelling, gameplay, and intuitive design to build worlds that feel alive and engaging. '
   },
   {
-    id: 10,
+    id: 11,
     image: '/amir.jpg',
     centerImage: '/characters/8.png',
     name: 'Aamir Asim Baksh',
@@ -94,7 +102,7 @@ const characterGrid: Character[] = [
     description: 'I like to create stories which everyone can relate to.'
   },
   {
-    id: 11,
+    id: 12,
     image: '/ankit.jpg',
     centerImage: '/characters/7.png',
     name: 'Ankit Verma',
@@ -102,7 +110,7 @@ const characterGrid: Character[] = [
     description: 'I’m a 3D character artist breathing life into imaginative characters, weaving them into worlds where they become friends, foes, and everything in between.'
   },
   {
-    id: 12,
+    id: 13,
     image: '/sorav.jpg',
     centerImage: '/characters/5.png',
     name: 'Sourav Passi',
@@ -110,7 +118,7 @@ const characterGrid: Character[] = [
     description: 'Hey I’m a 3D artist and project manager who turns wild ideas into pixel-perfect realities (and keeps the creative chaos in check). I lead a team of brilliant designers and dreamers who make magic happen,usually before the deadline and after a lot of coffee. Together, we turn imagination into eye candy!'
   },
   {
-    id: 13,
+    id: 14,
     image: '/yagnik.jpg',
     centerImage: '/characters/9.png',
     name: 'Yagnik Dobariya',
@@ -118,7 +126,7 @@ const characterGrid: Character[] = [
     description: 'From concept to creation, I transform simple ideas into textured treasures that anchor digital realities. I give weight to fantasy molding metal, wood, and wonder into believable 3D worlds.'
   },
   {
-    id: 14,
+    id: 15,
     image: '/govind.jpg',
     centerImage: '/characters/11.png',
     name: 'Govind Thapa',
@@ -126,7 +134,7 @@ const characterGrid: Character[] = [
     description: 'Creative 3D Artist with a passion for storytelling and design. Blends realism and stylized art to create immersive worlds.'
   },
   {
-    id: 15,
+    id: 16,
     image: '/harsh.jpg',
     centerImage: '/characters/12.png',
     name: 'Harshdeep Singh Gill',
@@ -134,7 +142,7 @@ const characterGrid: Character[] = [
     description: 'I’ve led teams as a Campaign Manager and Content Consultant, handling scheduling, training, performance reviews, and problem-solving while keeping department goals aligned with organizational objectives and management updates clear.'
   },
   {
-    id: 16,
+    id: 17,
     image: '/shubham.jpg',
     centerImage: '/characters/13.png',
     name: 'Shubham Adhao',
@@ -150,7 +158,7 @@ const characterGrid: Character[] = [
   //   description: 'I’m a game developer passionate about bringing ideas to life through design, code, and a healthy dose of chaos. I focus on building gameplay that feels intuitive and rewarding — and if something breaks along the way, that’s just the prototype learning to walk.'
   // },
   {
-    id: 17,
+    id: 18,
     image: '/arina.jpg',
     centerImage: '/characters/14.png',
     name: 'Ar. Ina Jain',
@@ -256,7 +264,7 @@ const Team: React.FC = () => {
           <div className="flex-1 lg:absolute lg:-right-32 lg:top-70 max-w-md w-full px-4 mt-4 lg:mt-0 z-20">
             <div className="text-center lg:text-left">
               <h2 className="text-3xl font-bold mb-2">{selectedCharacter.name}</h2>
-              <h3 className="text-lg text-yellow-400 mb-4 font-semibold">{selectedCharacter.title}</h3>
+              {/* <h3 className="text-lg text-yellow-400 mb-4 font-semibold">{selectedCharacter.title}</h3> */}
               <p className="text-gray-300 text-base leading-relaxed">{selectedCharacter.description}</p>
             </div>
           </div>
