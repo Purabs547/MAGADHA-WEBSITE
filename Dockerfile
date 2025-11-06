@@ -10,8 +10,10 @@ RUN npm run build
 FROM nginx:alpine
 # Copy built app
 COPY --from=build /app/dist /usr/share/nginx/html
-# Copy media folder (videos, gifs, etc.)
-COPY media /usr/share/nginx/html/media
+
+# Copy media folder from public
+COPY public/media /usr/share/nginx/html/media
+
 
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
